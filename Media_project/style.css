@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+}
+
+#container {
+  display: block;
+}
+.banner {
+  background-image: url("img/datingPic.jpeg");
+  height: 100vh;
+  background-size: cover;
+  border-bottom: grey 1px solid;
+  box-shadow: 0 10px 10px lightgrey;
+  display: block;
+  text-align: center;
+  clear: both;
+  position: relative;
+}
+#header-text {
+  text-align: center;
+  width: 60%;
+  display: inline-block;
+  margin-top: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  border: 15px solid white;
+  padding: 10px;
+  font-size: 10vh;
+  color: white;
+  opacity: 0.8;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  font-family: "Architects Daughter", cursive;
+}
+hr {
+  width: 50%;
+  margin: 20px auto;
+}
+#about {
+  min-height: 100vh;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  color: #2a4d69;
+  padding-top: 50px;
+}
+#about-header {
+  padding: 20px;
+  font-family: "Architects Daughter", cursive;
+  color: palevioletred;
+  font-size: 40px;
+  margin-bottom: 55px;
+}
+h1 {
+  color: #2a4d69;
+  text-transform: uppercase;
+}
+#Capa_1 {
+  fill: #2a4d69;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+#profile-pic {
+  height: 145px;
+  width: 145px;
+  border: 10px solid #999999;
+  border-radius: 50%;
+  background-image: url("http://www.eurogeosurveys.org/wp-content/uploads/2014/02/default_profile_pic.jpg");
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#ImageDisplay {
+  margin: 0 auto;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#test-heading {
+  padding: 35px;
+  font-family: "Architects Daughter", cursive;
+  font-size: 55px;
+  
+}
+.quote {
+  position: relative;
+  max-width: 700px;
+  min-height: 100px;
+  padding: 20px 60px;
+  margin: 50px auto;
+  color: #2a4d69;
+  text-align: justify;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+  font-style: italic;
+}
+.quote:hover {
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+.quote h1 {
+  color: #2a4d69;
+  text-transform: none;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+}
+#gallery {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  color: #2a4d69;
+  padding-bottom: 20px;
+  min-height: 100vh;
+}
+#gallery-header {
+  padding: 35px;
+  font-family: "Architects Daughter", cursive;
+  font-size: 55px;
+}
+.image {
+  width: 80%;
+  display: inline-block;
+  overflow: hidden;
+  border: 10px solid white;
+  border-bottom: 40px solid white;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+  -webkit-filter: grayscale(90%);
+}
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.image:hover {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  -webkit-filter: grayscale(0);
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.videoInfo {
+  margin-left: 6%;
+}
+video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#contact {
+  margin: 100px auto 50px auto;
+  width: 100%;
+  text-align: center;
+  color: #2a4d69;
+  padding: 50px 0;
+  background-color: #f0f0f0;
+  display: block;
+  clear: both;
+}
+#contact-heading {
+  padding-bottom: 10px;
+  font-family: "Architects Daughter", cursive;
+  font-size: 55px;
+}
+#contact ul {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70%;
+}
+#contact li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+  text-align: left;
+}
+footer {
+  text-align: center;
+
+  background-color: #2a4d69;
+  color: white;
+  padding: 50px 20px;
+
+
+  clear: both;
+}
+
+svg {
+  fill: none;
+}
+a #facebook:hover,
+#twitter:hover,
+#googleplus:hover,
+#instagram:hover {
+  fill: #999999;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+}
+
+#imagesicon {
+  margin-right: 20px;
+}
+#videosicon {
+  margin-right: 20px;
+}
+#infoicon {
+  margin-right: 20px;
+}
+#MyownIcon {
+  height: 5%;
+  width: 5%;
+}
+#MyownIcon2 {
+  height: 10%;
+  width: 10%;
+}

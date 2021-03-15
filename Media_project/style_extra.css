@@ -1,0 +1,34 @@
+html {
+  background: #A18276;
+  padding: 30px;
+}
+
+body {
+  padding: 30px;
+  max-width: 700px;
+  background: #B9D2B1;
+  margin: auto;
+  font-family: "Istok Web", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid;
+  box-shadow: 5px 8px 8px black;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.25;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h3{
+    margin-left: 3%;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
